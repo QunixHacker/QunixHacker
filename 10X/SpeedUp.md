@@ -2,7 +2,7 @@
 
 ### 一、Mac/Homebrew
 
-``` Shell
+``` console
 # 1. 替换brew.git
 cd $(brew --repo)
 git remote set-url origin git://mirrors.ustc.edu.cn/brew.git
