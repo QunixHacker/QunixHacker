@@ -8,6 +8,7 @@ Roles
 
 * [FullStack Developer](./FullStack/README.md)
 * [DevOps Developer](./DevOps/README.md)
+* [Certified Scrum Master](./Scrum/README.md)
 
 <!---
 QunixHacker/QunixHacker is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
