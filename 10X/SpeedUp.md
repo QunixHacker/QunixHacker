@@ -40,7 +40,7 @@ curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.163.com/.help/CentOS7-B
 
 # 3. 替换地址
 vi CentOS-Base.repo
-修改文件中的baseurl地址,把每个baseurl后边的$releasever替换成7，把$basearch替换成x86_64
+# 修改文件中的baseurl地址,把每个baseurl后边的$releasever替换成7，把$basearch替换成x86_64
 # 4. 清缓存 
 yum clean all
 # 5. 缓存 
