@@ -30,7 +30,8 @@ source ~/.zshrc
 
 ### 二、Centos7 /Yum
 配置163 源
-``` bash
+
+``` console
 # 1. 备份镜像文件,没有就不用备份
 mv /etc/yum.repos.d/CentOS-Base.repo/etc/yum.repos.d/CentOS-Base.repo.backup
 # 2. 下载新的CentOS-Base.repo 到/etc/yum.repos.d/
@@ -48,9 +49,11 @@ yum makecache
 mirrors repo
 * http://mirrors.163.com/.help/CentOS7-Base-163.repo
 * http://mirrors.aliyun.com/repo/Centos-7.repo
-* 
+
+
 ### 三、Python/Pypi
-``` sh
+
+``` console
 # 临时使用
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 
@@ -58,14 +61,16 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 pip install pip -U
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
 mirrors
 * 中国科学技术大学：https://pypi.mirrors.ustc.edu.cn/simple
 * 阿里云：https://mirrors.aliyun.com/pypi/simple/
 * 清华：https://pypi.tuna.tsinghua.edu.cn/simple
 * 豆瓣：http://pypi.douban.com/simple/
 
-###四、Node/npm
-``` sh
+### 四、Node/npm
+
+``` console
 # 1. 临时使用
 npm install [package] --registry=https://registry.npm.taobao.org/
 # 2. 长期使用
@@ -73,8 +78,9 @@ npm set registry https://registry.npm.taobao.org/
 ```
 
 ### 五、Docker Registry
+
 1. 编辑文件
-``` bash 
+``` console
 vim /etc/docker/daemon.json
 ```
 2. json content 
