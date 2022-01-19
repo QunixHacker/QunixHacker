@@ -30,7 +30,7 @@ source ~/.zshrc
 
 ### 二、Centos7 /Yum
 配置163 源
-```bash
+``` bash
 # 1. 备份镜像文件,没有就不用备份
 mv /etc/yum.repos.d/CentOS-Base.repo/etc/yum.repos.d/CentOS-Base.repo.backup
 # 2. 下载新的CentOS-Base.repo 到/etc/yum.repos.d/
@@ -50,7 +50,7 @@ mirrors repo
 * http://mirrors.aliyun.com/repo/Centos-7.repo
 * 
 ### 三、Python/Pypi
-```bash
+``` sh
 # 临时使用
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 
@@ -65,7 +65,7 @@ mirrors
 * 豆瓣：http://pypi.douban.com/simple/
 
 ###四、Node/npm
-``` shell
+``` sh
 # 1. 临时使用
 npm install [package] --registry=https://registry.npm.taobao.org/
 # 2. 长期使用
@@ -74,17 +74,17 @@ npm set registry https://registry.npm.taobao.org/
 
 ### 五、Docker Registry
 1. 编辑文件
-```bash 
+``` bash 
 vim /etc/docker/daemon.json
 ```
 2. json content 
-```json
+``` json
 {
   "registry-mirrors": ["加速地址"]
 }
 ```
 3. 使生效
-```shell
+``` console
 systemctl daemon-reload
 systemctl restart docker
 ```
