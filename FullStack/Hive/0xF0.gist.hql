@@ -39,7 +39,7 @@ USE model;
 INSERT OVERWRITE table model.some_table_name PARTITION (dt = '${hiveconf:etl_date}')
 SELECT C1, C2, C3
 FROM tmp.some_tmp_table_name
-WHERE C1 = '${hiveconf:some_var}'
+WHERE C1 = '${hiveconf:some_var}';
 
 /*bash
   # usage
@@ -60,7 +60,7 @@ WITH TMP_1 AS (
      )
 SELECT TMP_1.C1, TMP_2.C3
 WHERE TMP_1.C2 = 1
-  AND TMP_2.C4 = 3
+  AND TMP_2.C4 = 3;
 
 -- 5.list
 
