@@ -1,4 +1,4 @@
-一、计算机通用基础
+### 一、计算机通用基础
 
 * 程序是在怎么跑起来的
 * 网络是怎样连接的
@@ -9,7 +9,7 @@
 * 计算机网络自顶向下方法
 * 操作系统导论：三个桃子
 
-二、后端基础
+### 二、后端基础
 
 * Vim 使用技巧
 * Reids 设计与实现/ Redis In Action
@@ -18,7 +18,14 @@
 * Unix 网络编程（1，2）
 * Unix 环境高级编程
 
-三、Python
+### 三、Golang
+* [The Go Programming Language](https://books.studygolang.com/gopl-zh/)
+* [The Way to Go](https://learnku.com/docs/the-way-to-go/book-intro/3560)
+* [Go In Action]()
+* [Go语言设计与实现](https://draveness.me/golang/)
+* [books](https://books.studygolang.com/)
+
+### 四、Python
 
 * Learn Python The Hard Way
 * Python 编程从入门到实践
@@ -28,7 +35,7 @@
 * Python 高性能编程
 * Python 3 标准库
 
-四、Java
+### 五、Java
 
 * Java 8 In Action
 * Java 核心卷（1，2）
@@ -37,7 +44,7 @@
 * 深入理解Java虚拟机
 * 算法
 
-五、工程素养
+### 六、工程素养
 
 * 黑客与画家
 * 增长黑客
@@ -49,7 +56,7 @@
 * 凤凰项目
 * DevOps实践指南
 
-六、其他
+### 七、其他
 
 * 国富论
 * 异类/刻意练习
