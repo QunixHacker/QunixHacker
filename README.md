@@ -4,13 +4,13 @@ BIO
   * [书单](./FunByFriends/Books.md)
 
 Roles
-  * [DevOps Developer](./DevOps/README.md)
-    * Linux / Shell
+  * [DevOps Developer]
+    * Linux / [CentOS 7](./DevOps/CentOS7) / Shell
     * Nginx
     * Kafka / Redis
     * Mysql / Mongo 
     * [Docker](https://github.com/QunixHacker/dockerfiles) / Gitlab
-  * [FullStack Developer](./FullStack/README.md)
+  * [FullStack Developer]
     * 数据开发/数据分析
       * [Pandas](./FullStack/Pandas) / [Matplotlib](./FullStack/Matplotlib)
       * [Hive](./FullStack/Hive) / [Spark](./FullStack/Spark)
