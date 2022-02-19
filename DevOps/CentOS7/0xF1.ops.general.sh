@@ -9,4 +9,3 @@ dmesg -T
 dmesg -T|grep OOM
 top/htop
 
-## 2.

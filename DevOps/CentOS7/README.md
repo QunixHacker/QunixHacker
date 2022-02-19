@@ -8,7 +8,7 @@ uname -m: x86_64
 * [配置查看-硬件](./0xFF.usage.hardware.sh)
 * [配置查看-系统](./0xFF.usage.os.sh)
 * [系统调试-粗略工具](./0xF1.ops.general.sh)
-* [系统调试-细力度工具](./0xF3.ops.overview.sh)
+* [系统调试-细力度工具](./0xF3.ops.deepin.sh)
 * [程序调试-单程序性能](./0xF2.ops.detail.sh)
 * [工具-iproute](./0xE0.network.iproute.md)
 
