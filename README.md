@@ -1,7 +1,7 @@
 BIO
   * 自己需要频繁测试各种组件和工具，拿一个PC构建一套测试环境，参见这⬇️
   * [Dockerfiles](https://github.com/QunixHacker/dockerfiles)
-  * [书单](./FunByFriends/Books.md)
+  * [书单](./Scrum/Books.md)
 
 Roles
   * [DevOps Developer]
