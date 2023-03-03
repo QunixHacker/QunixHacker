@@ -19,6 +19,9 @@ set -xue
 
 
 # curl 验证
+# 不验证
+curl -v -k https://demo.ssl.iidx.cn
+
 # 不通过 command exit 60
 curl -v https://demo.ssl.iidx.cn || true
 # 通过
