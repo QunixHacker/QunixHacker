@@ -1,0 +1,18 @@
+demo.iidx.cn {
+    root * /path/to/html/
+    file_server
+    encode gzip
+}
+
+demo2.iidx.cn {
+    root * /path/to/html2/
+    file_server
+    encode gzip
+}
+
+
+localhost:8090 {
+    root * /path/to/somewebsite/
+    file_server
+    encode gzip
+}
