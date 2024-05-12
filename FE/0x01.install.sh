@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 
 # 1. node npm npx
+# nrm nvm
 
 
 # 2. set
