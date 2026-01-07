@@ -4,6 +4,9 @@ BIO
   * [书单](./Scrum/Books.md)
 
 Roles
+  * BOOKS
+    * [纳瓦尔宝典](https://weread.qq.com/web/reader/e1e32b00729fc94fe1e824d)
+    * [福格行为模型](https://weread.qq.com/web/reader/614325a07273de5c614b852) 
   * [DevOps Developer]
     * Linux / [CentOS 7](./DevOps/CentOS7) / Shell
     * Nginx
